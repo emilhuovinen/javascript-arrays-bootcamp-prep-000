@@ -37,4 +37,6 @@ var addElementToEndOfArray = function(array, element) {
    return array.pop()
  }
  
-removeElementFromEndOfArray
+var removeElementFromEndOfArray = function(array) {
+  return array.slice(array.length - 1)
+}
