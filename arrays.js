@@ -10,7 +10,8 @@ var chocolateBars = [
  }
  
  var destructivelyAddElementToBeginningOfArray = function(array, element) {
-   return array.unshift(element)
+   array.unshift(element);
+   return array
  }
  
 var addElementToEndOfArray = function(array, element) {
