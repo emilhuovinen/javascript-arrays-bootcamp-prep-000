@@ -33,7 +33,9 @@ var addElementToEndOfArray = function(array, element) {
    return array.slice(1)
  }
  
- destructivelyRemoveElementFromEndOfArray
+ var destructivelyRemoveElementFromEndOfArray = function(array){
+   return array.pop()
+ }
  
  addElementToBeginningOfArray(array, element);
  destructivelyAddElementToBeginningOfArray(array, element);
