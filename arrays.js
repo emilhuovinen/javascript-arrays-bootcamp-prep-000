@@ -37,3 +37,4 @@ var addElementToEndOfArray = function(array, element) {
    return array.pop()
  }
  
+removeElementFromEndOfArray
