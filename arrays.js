@@ -37,9 +37,3 @@ var addElementToEndOfArray = function(array, element) {
    return array.pop()
  }
  
- addElementToBeginningOfArray(array, element);
- destructivelyAddElementToBeginningOfArray(array, element);
- destructivelyAddElementToEndOfArray(array, element);
- addElementToEndOfArray(array, element);
- accessElementInArray(array, index);
- destructivelyRemoveElementFromBeginningOfArray(array);
