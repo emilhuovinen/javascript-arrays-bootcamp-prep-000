@@ -33,6 +33,8 @@ var addElementToEndOfArray = function(array, element) {
    return array.slice(1)
  }
  
+ destructivelyRemoveElementFromEndOfArray
+ 
  addElementToBeginningOfArray(array, element);
  destructivelyAddElementToBeginningOfArray(array, element);
  destructivelyAddElementToEndOfArray(array, element);
